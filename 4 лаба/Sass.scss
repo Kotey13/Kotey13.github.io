@@ -1,0 +1,28 @@
+/* =============
+На главную
+============= */
+$primary-colorr: rgb(201, 41, 41);
+$font-size: 14px;
+$padding: 5px;
+
+#back-main {
+    color: $primary-colorr;
+    font: $font-size;
+    border: {
+        style: solid;
+        width: 1px;
+        color:rgb(75, 1, 1);
+        radius: 25px;
+    }
+        padding: $padding;
+    text-decoration: none;
+  }
+ 
+  .back-main:hover { background: rgb(232,95,76); }
+  .back-main:active { background: rgb(152,15,0); }
+  
+    #back {
+    margin: 0 auto 30px 500px;
+    }
+  
+  

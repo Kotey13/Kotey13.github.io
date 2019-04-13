@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* =============
+На главную
+============= */
+#back-main {
+  color: #c92929;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4b0101;
+  border-radius: 25px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.back-main:hover {
+  background: #e85f4c;
+}
+
+.back-main:active {
+  background: #980f00;
+}
+
+#back {
+  margin: 0 auto 30px 500px;
+}
+
+.main-page section a {
+  color: black;
+}
+/*# sourceMappingURL=Sass.css.map */

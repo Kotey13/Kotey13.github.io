@@ -2,9 +2,9 @@ body {
   margin: auto;
   padding: 0;
   font-family: Times, Courier, serif;
- 
   background-image: url('fon.jpg');
 }
+
 
   .knop {
     text-decoration: none;
@@ -59,15 +59,22 @@ body {
 
 .one h2 {
   font-family: Comic Sans MS, sans-serif;
-  font-size: 30px;
-  letter-spacing: 1px;
-  max-width: 320px;
-  width: 100%;
-  position: relative;
+  text-decoration: none;
+  outline: none;
   display: inline-block;
-  color: #55da08;
- 
+  color: rgb(252, 253, 252);
+  padding: 10px 25px;
+  margin: 10px 20px;
+  border-radius: 200px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(33, 253, 13) 51%, rgb(0, 0, 0) 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  transition: .5s;
 }
+h2:hover {background-position: right center;}
+
 /* Эксперемент над заголовком */
 .four {
    margin: auto;
@@ -165,13 +172,13 @@ body {
 /* Второе задание */
 #content-2 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-auto-rows: 80px 300px 200px 40px 80px;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-rows: 80px 300px 80px 250px 80px;
 
 }
 #header-2 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   background: #292929;
 }
 
@@ -179,27 +186,29 @@ body {
   grid-row-start: 2;
   grid-column-start: 1;
   grid-column-end: 3;
+  grid-row-end: 4;
   background: #1f85b1;
 }
 
 #navigation-2 {
-  grid-row-start: 3;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
   background: #31cc46;
 }
 
 #stuff-2 {
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-row-end: 5;
-  grid-column-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
   background: #9f2dcc;
 }
 
 #footer-2 {
   grid-row-start: 5;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   background: #292929;
 }
 
@@ -222,18 +231,18 @@ body {
 }
 
 /* Третье задание */
-#zadanie-3 {
+#zadanie3 {
   display: inline-flex;
   flex-wrap: wrap;
-  background: #bacdb4;
+  background: #ffffff;
 }
 
 @media (max-width: 1320px) {
-  #zadanie-3 {background: #c8dd6a;}
+  #zadanie3 {background: #e6ff01;}
 }
 
 @media (max-width: 880px) {
-  #zadanie-3 {background: #337a6b;}
+  #zadanie3 {background: #000000;}
 }
 .img-3-1, .img-3-2, .img-3-3,
 .img-3-4, .img-3-5, .img-3-6 {

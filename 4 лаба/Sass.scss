@@ -1,28 +1,44 @@
-/* =============
-На главную
-============= */
-$primary-colorr: rgb(201, 41, 41);
-$font-size: 14px;
-$padding: 5px;
+$bcolor: #292929;
+%redColor{
+    color: rgb(255, 0, 0);
+}
 
-#back-main {
-    color: $primary-colorr;
-    font: $font-size;
-    border: {
-        style: solid;
-        width: 1px;
-        color:rgb(75, 1, 1);
-        radius: 25px;
+#header-1 {
+    background: $bcolor;
+    .text-name{
+        @extend %redColor;
     }
-        padding: $padding;
-    text-decoration: none;
-  }
- 
-  .back-main:hover { background: rgb(232,95,76); }
-  .back-main:active { background: rgb(152,15,0); }
-  
-    #back {
-    margin: 0 auto 30px 500px;
+}
+#content-1{
+    $width: 960px;
+    $column: $width/4;
+    #stuff-1 {
+        width: 1*$column;
+        .text-1{
+            @extend %redColor;
+        }
     }
-  
-  
+    #main-content-1{
+        width: 2*$column;
+        .text-1{
+            @extend %redColor;
+        }
+    }
+    #navigation-1{
+        width: 1*$column;
+        .text-1{
+            @extend %redColor;
+        }
+    }
+}
+@mixin example(){
+    position: inherit;
+    font-weight: bold;
+    text-align: center;
+} 
+.text-name {
+    @include example(); 
+}
+.text-1 {
+    @include example(); 
+}

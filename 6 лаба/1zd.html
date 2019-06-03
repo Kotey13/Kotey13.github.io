@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>rectExample</title>
+		<meta charset='utf-8' />
+	</head>
+	<body>
+		<canvas id='example'>Обновите браузер</canvas>
+		<script>
+			var example = document.getElementById("example"),
+			    ctx     = example.getContext('2d');
+			example.height = 480;
+			example.width  = 640;
+			ctx.fillStyle = '#AF5200'; // меняем цвет клеток
+			ctx.fillRect(20, 20, 370, 250);
+            ctx.fillStyle = '#F4FBFB'; // меняем цвет клеток
+			ctx.fillRect(20, 115, 370, 50);
+            ctx.fillStyle = '#F4FBFB'; // меняем цвет клеток
+			ctx.fillRect(110, 20, 50, 250);
+		</script>
+	</body>
+</html>

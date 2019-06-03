@@ -1,31 +1,32 @@
-@charset "UTF-8";
-/* =============
-На главную
-============= */
-#back-main {
-  color: #c92929;
-  font-size: 14px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #4b0101;
-  border-radius: 25px;
-  padding: 5px;
-  text-decoration: none;
+#header-1 .text-name, #content-1 #stuff-1 .text-1, #content-1 #main-content-1 .text-1, #content-1 #navigation-1 .text-1 {
+  color: red;
 }
 
-.back-main:hover {
-  background: #e85f4c;
+#header-1 {
+  background: #292929;
 }
 
-.back-main:active {
-  background: #980f00;
+#content-1 #stuff-1 {
+  width: 240px;
 }
 
-#back {
-  margin: 0 auto 30px 500px;
+#content-1 #main-content-1 {
+  width: 480px;
 }
 
-.main-page section a {
-  color: black;
+#content-1 #navigation-1 {
+  width: 240px;
 }
-/*# sourceMappingURL=Sass.css.map */
+
+.text-name {
+  position: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-1 {
+  position: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+/*# sourceMappingURL=SASS.css.map */

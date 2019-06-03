@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.41 195.56">
+<defs><style>
+.a{fill:#fff;stroke-width:4px;}.a,.b,.c{stroke:#201600;stroke-miterlimit:10;}.b,.c{fill:#201600;}.b{stroke-width:3px;}
+</style></defs>
+<title>1зд</title>
+<polygon class="a" points="206.11 162.91 54.05 162.91 2 44.12 2 40.31 198.57 40.31 206.11 40.31 206.11 162.91"/>
+<polyline class="a" points="198.57 40.31 224.6 15.65 235.56 27.98 206.11 53.32"/>
+<path class="b" d="M275.05,198h118.5s4.79-20.2-15.07-27-64.38-8.91-83.56,0S275.05,198,275.05,198Z" transform="translate(-230.59 -163.55)"/>
+<circle class="a" cx="86.93" cy="181.58" r="11.99"/>
+<circle class="a" cx="175.45" cy="181.58" r="11.99"/>
+<rect class="c" x="26.32" y="62.91" width="164.04" height="10.96" rx="5.48" ry="5.48"/>
+<rect class="c" x="48.75" y="89.43" width="141.61" height="10.96" rx="5.48" ry="5.48"/>
+<rect class="c" x="71.18" y="115.95" width="119.18" height="10.96" rx="5.48" ry="5.48"/>
+</svg>

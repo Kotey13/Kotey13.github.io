@@ -1,0 +1,88 @@
+
+ /* выподающие меню*/
+
+
+h2 {
+  color: #09bfc5;
+}
+
+body {
+  margin: 0;
+  background: #fafafa;
+}
+header {
+  background: rgb(10, 1, 1);
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .3s ease-in-out;
+}
+
+nav {
+  width: 660px;
+  margin: 0 auto 30px;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+  transition: .4s ease-in-out;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+.fa {
+    color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.three ul a {
+  color: rgb(242, 247, 248);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  text-decoration: none;
+}
+.three .submenu {
+  visibility: hidden;
+  opacity: 0;
+  background: rgb(56, 12, 216);
+}
+.three ul li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+.submenu li a {
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  color: white;
+}

@@ -128,7 +128,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-image: url(шапка.jpg);
+  background-image: url(im.jpg);
   background-size: 100% auto;
   box-shadow: 0 0 20px rgba(0,0,0,.1);
   transition: .5s;
@@ -165,7 +165,7 @@ body {
   transform: translateY(-7px);}
 
 /*товар*/
-  {box-sizing: border-box;}
+  
   .product-wrap {
     width: 300px;
     margin: 0 auto;
